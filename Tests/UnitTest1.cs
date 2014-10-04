@@ -45,8 +45,6 @@ namespace Tests
         [TestMethod]
         public void TestMethod2()
         {
-            var ouTree = Depot.OrgUnits.Tree(10, 10);
-            var ous = Builder<OrgUnit>.CreateListOfSize(2500).BuildHierarchy(ouTree);
         }
     }
 }
